@@ -1,6 +1,6 @@
-FROM openorchestra/open-orchestra:apache2.2
+FROM is0bar/isobar:apache2.2
 
-MAINTAINER Raphaël Carles <raphael.carles@businessdecision.com>
+MAINTAINER Raphaël Carles <raphael.carles@isobar.com>
 
 RUN echo "deb http://packages.dotdeb.org wheezy-php55 all" >> /etc/apt/sources.list.d/dotdeb.list
 RUN echo "deb-src http://packages.dotdeb.org wheezy-php55 all" >> /etc/apt/sources.list.d/dotdeb.list

@@ -1,6 +1,6 @@
-FROM openorchestra/open-orchestra:apache2.2
+FROM is0bar/isobar:apache2.2
 
-MAINTAINER Raphaël Carles <raphael.carles@businessdecision.com>
+MAINTAINER Raphaël Carles <raphael.carles@isobar.com>
 
 RUN systemMods=" \
         php5 \
