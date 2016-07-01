@@ -1,6 +1,6 @@
 FROM debian:wheezy-backports
 
-MAINTAINER Raphaël Carles <raphael.carles@businessdecision.com>
+MAINTAINER Raphaël Carles <raphael.carles@isobar.com>
 
 ENV TERM xterm
 
