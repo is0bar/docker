@@ -1,4 +1,4 @@
-FROM isobar-fr/isobar:apache2.4
+FROM isobarfr/dev:apache2.4
 
 MAINTAINER Raphaël Carles <raphael.carles@isobar.com>
 
