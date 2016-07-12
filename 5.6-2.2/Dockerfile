@@ -1,4 +1,4 @@
-FROM is0bar/isobar:apache2.2
+FROM isobar-fr/isobar:apache2.2
 
 MAINTAINER Raphaël Carles <raphael.carles@isobar.com>
 
@@ -20,6 +20,7 @@ RUN systemMods=" \
         php5-mysql \
         php5-gd \
         php5-ldap \
+        php5-xsl \
         php5-apcu \
         php-pear \
     " \
